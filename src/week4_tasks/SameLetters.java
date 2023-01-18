@@ -8,7 +8,7 @@ public class SameLetters {
     public static void main(String[] args) {
 
         System.out.println( sameLetters( "abc", "cab" ) );
-        System.out.println( sameLetters( "abc", "abb" ) );
+        System.out.println( sameLetters( "abc", "bac" ) );
     }
 
     public static boolean sameLetters(String a, String b) {
